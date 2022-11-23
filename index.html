@@ -4,9 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>The Hangman</title>
   </head>
   <body>
+    <h1>The Hangman</h1>
+    <div class="top">
+      <div class="header">
+        <img src="./resources/hangman.png" alt="" />
+        <p class="result" id="result"></p>
+      </div>
+      <div class="side">
+        <div class="input">
+          <p class="input__text">Take a letter</p>
+          <div>
+            <input class="input__field" type="text" id="input" maxlength="1" size="1" />
+          </div>
+        </div>
+        <div class="input">
+          <p class="input__text">Guess a word</p>
+          <div>
+            <input class="input__field" type="text" id="inputWord" />
+          </div>
+        </div>
+        <div class="used">
+          <p class="used__title">Used Letters</p>
+          <div class="used__field">
+            <div class="used__letters" id="used_letters"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 id="final_message"></h2>
+    <!-- <script src="./js/test.js"></script> -->
     <script src="./js/main.js" type="module"></script>
   </body>
 </html>
