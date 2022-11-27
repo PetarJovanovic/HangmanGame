@@ -75,7 +75,6 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-
 .input__text {
   margin: 0 10px 0 0;
   font-size: 1.5rem;
